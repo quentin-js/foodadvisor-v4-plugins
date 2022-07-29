@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_global_vendor_offering_cards",
+  "info": {
+    "displayName": "VendorOfferingCard",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "VendorCardS": {
+      "displayName": "VendorCardS",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.vendor-card-s"
+    }
+  }
+}

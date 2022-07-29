@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_global_vendor_card_ms",
+  "info": {
+    "displayName": "VendorCardM"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "video_cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "JSON_data": {
+      "type": "json"
+    },
+    "pricing": {
+      "type": "float"
+    },
+    "isUrgent": {
+      "type": "boolean"
+    },
+    "vendor_list": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::vendor-list.vendor-list"
+    },
+    "vendor_offering_categorization": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::offering-categorization.offering-categorization"
+    }
+  }
+}

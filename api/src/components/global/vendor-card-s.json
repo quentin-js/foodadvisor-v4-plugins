@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_global_vendor_card_s",
+  "info": {
+    "displayName": "VendorCardS",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "CTA": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.cta-command-line"
+    },
+    "JSONdata": {
+      "type": "json"
+    },
+    "vendor_list": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::vendor-list.vendor-list"
+    },
+    "vendor_offering_categorization": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::offering-categorization.offering-categorization"
+    }
+  }
+}

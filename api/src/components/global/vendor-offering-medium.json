@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_global_vendor_offering_mediums",
+  "info": {
+    "displayName": "VendorOfferingMedium",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "VendorCardM": {
+      "displayName": "VendorCardM",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.vendor-card-m"
+    }
+  }
+}

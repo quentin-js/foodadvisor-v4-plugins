@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_hero_corporates",
+  "info": {
+    "displayName": "hero-corporate",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "CTA": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.cta-command-line"
+    }
+  }
+}

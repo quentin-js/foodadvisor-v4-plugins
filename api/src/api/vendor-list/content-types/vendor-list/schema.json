@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vendor_lists",
+  "info": {
+    "singularName": "vendor-list",
+    "pluralName": "vendor-lists",
+    "displayName": "VendorList"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "VendorName": {
+      "type": "string"
+    }
+  }
+}

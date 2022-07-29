@@ -1,0 +1,43 @@
+{
+  "name": "foodadvisor-v4",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "seed": "node script/seed.js"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.0",
+    "@strapi/plugin-i18n": "4.2.3",
+    "@strapi/plugin-seo": "^1.7.4",
+    "@strapi/plugin-users-permissions": "4.2.3",
+    "@strapi/strapi": "4.2.3",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.0.0",
+    "i": "^0.3.7",
+    "lodash": "^4.17.21",
+    "lodash.set": "^4.3.2",
+    "passport-github2": "^0.1.12",
+    "sqlite3": "5.0.2",
+    "strapi-plugin-entity-relationship-chart": "^4.1.0",
+    "strapi-plugin-preview-button": "^0.3.4",
+    "styled-components": "^5.3.3",
+    "unzip-stream": "^0.3.1",
+    "uuid-v4": "^0.1.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "FOODADVISOR-LOCAL-fc890ace-3896-4316-ab14-9f25d7469288"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
